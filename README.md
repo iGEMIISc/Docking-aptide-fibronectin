@@ -23,6 +23,10 @@ We will be taking the top models from both the free docking and template-based d
 
 ### Analysis of Docking Results using PRODIGY
 PRODIGY (PROtein binDIng enerGY prediction) is a web server for predicting the binding affinity of protein-protein complexes. We used this tool to analyze the docking results obtained from GRAMM.
+| Method |  Predicted Binding Affinity <br> $\Delta G$ in $\text{kcal}~\text{mol}^{-1}$ | Predicted Dissociation Constant <br> $K_d$ in $\text{M}$ at $36 \degree\text{C}$ |
+| :---: | :---: | :---: |
+| Free Docking | $-10.0$ | $7.9 \times 10^{-8}$ |
+| Template-based Docking | $-6.8$ | $3.8 \times 10^{-5}$ |
 
 The calculations are done for $36 \degree\text{C}$ as this is the temperature at which our lipid nanoparticle decorated with aptides will interact with extra-domain B of fibronectin in the human peritoneum*. It can be seen that free docking has provided a much more favorable binding affinity and dissociation constant than template-based docking. This suggests that the free docking could access a more stable conformation of the complex, and thus is more likely to be closer to the actual binding conformation.
 
