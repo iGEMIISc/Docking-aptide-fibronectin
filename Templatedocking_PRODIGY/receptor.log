@@ -1,0 +1,13 @@
+[+] Reading structure file: /data/runs/3S5cdeVB/receptor.pdb
+[+] Parsed structure file receptor (2 chains, 121 residues)
+[+] No. of intermolecular contacts: 13
+[+] No. of charged-charged contacts: 0
+[+] No. of charged-polar contacts: 0
+[+] No. of charged-apolar contacts: 2
+[+] No. of polar-polar contacts: 1
+[+] No. of apolar-polar contacts: 4
+[+] No. of apolar-apolar contacts: 6
+[+] Percentage of apolar NIS residues: 42.99
+[+] Percentage of charged NIS residues: 18.69
+[++] Predicted binding affinity (kcal.mol-1):     -6.2
+[++] Predicted dissociation constant (M) at 36.0˚C:  3.8e-05
